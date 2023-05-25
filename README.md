@@ -10,6 +10,11 @@ npm install
 npm run serve
 ```
 
+### Compiles using electron
+```
+npm run electrom:serve
+```
+
 ### Compiles and minifies for production
 ```
 npm run build
