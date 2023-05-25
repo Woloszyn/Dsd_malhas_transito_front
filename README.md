@@ -12,7 +12,7 @@ npm run serve
 
 ### Compiles using electron
 ```
-npm run electrom:serve
+npm run electron:serve
 ```
 
 ### Compiles and minifies for production
