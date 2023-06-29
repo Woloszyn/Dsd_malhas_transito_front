@@ -1,21 +1,24 @@
 <template>
   <v-app>
     <v-main>
-      <RoadViewer/>
+      <!-- <RoadViewer/> -->
       <!-- <TesteCard/> -->
+      <Chat/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import RoadViewer from './components/RoadViewer.vue';
+// import RoadViewer from './components/RoadViewer.vue';
 // import TesteCard from './components/TesteCard.vue';
+import Chat from './components/Chat.vue'
 
 export default {
   name: 'App',
 
   components: {
-    RoadViewer
+    Chat
+    // RoadViewer
     // TesteCard
   },
 
